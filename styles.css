@@ -1,0 +1,99 @@
+body { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(https://www.rosario3.com/__export/1682118908893/sites/rosario3/img/2023/04/21/hinchas_rc.jpg_1192065467.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: #0033a0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-left: 700px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.equipo {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.equipo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equipo p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: gold;
+    background-color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #0033a0;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.equipo img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.jugadores p{
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -500px;
+    white-space: pre-line;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.palomita img{
+    width: 570px;
+    margin-top: 50px;
+    margin-left: 700px;
+}
